@@ -2,8 +2,9 @@
 
 ### Getting token (Access Token/ID Token) from Google
 1. When resource-owner login correctly on Google login page, the `Authorization Code` is returned to client
-2. Client requesting for token with `Authorization Code`
+2. Client requesting for token with `Authorization Code` (to auth-server)
 3. The token is returned to client
+4. And used in requests to resource-server.
 
 
 ### Access Token vs ID Token 
